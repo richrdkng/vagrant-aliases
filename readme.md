@@ -45,4 +45,4 @@ alias vag-reinstall='yes | vagrant destroy && vagrant up && vagrant ssh'
 
 ## License
 
-MIT @ Richard King
+[MIT](//opensource.org/licenses/MIT) @ Richard King
