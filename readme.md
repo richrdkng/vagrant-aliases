@@ -51,4 +51,4 @@ alias vg-reinstall='yes | vagrant destroy && vagrant up && vagrant ssh'
 
 ## License
 
-[MIT](//opensource.org/licenses/MIT) @ Richard King
+[MIT](https://opensource.org/licenses/MIT) @ Richard King
