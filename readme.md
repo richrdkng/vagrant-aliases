@@ -36,7 +36,7 @@ alias vag-enter='vagrant ssh'
 alias vgr-enter='vagrant ssh'
 alias vg-enter='vagrant ssh'
 
-# restart vagrant - halts the virtual machine, then start it and ssh into it
+# restart vagrant - halts the virtual machine, then starts it and ssh into it
 alias vagrant-restart='vagrant halt && vagrant up && vagrant ssh'
 alias vag-restart='vagrant halt && vagrant up && vagrant ssh'
 alias vgr-restart='vagrant halt && vagrant up && vagrant ssh'
@@ -48,7 +48,7 @@ alias vag-remove='yes | vagrant destroy'
 alias vgr-remove='yes | vagrant destroy'
 alias vg-remove='yes | vagrant destroy'
 
-# reinstall vagrant - destroys the virtual machine without prompt, then start it and ssh into it
+# reinstall vagrant - destroys the virtual machine without prompt, then starts it and ssh into it
 alias vagrant-reinstall='yes | vagrant destroy && vagrant up && vagrant ssh'
 alias vag-reinstall='yes | vagrant destroy && vagrant up && vagrant ssh'
 alias vgr-reinstall='yes | vagrant destroy && vagrant up && vagrant ssh'
