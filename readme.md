@@ -57,10 +57,30 @@ alias vg-reinstall='yes | vagrant destroy && vagrant up && vagrant ssh'
 
 ## Usage
 
+- Linux
+  - put the aliases into [.bashrc][linux-link]
+
+- Mac OS
+  - put the aliases into [.bash_profile][macos-link]
+
+- Windows
+  - put the aliases into:
+    - [MinGW - .bash_profile][mingw-link]
+    - [Cygwin - .profile][mingw-link]
+
 ## Contribution
 
+[General Contribution Guide](https://github.com/richrdkng/general-contribution-guide)
+
 ## Support
+
+[Support the developer](richrdkng.github.io/support)
 
 ## License
 
 [MIT](https://opensource.org/licenses/MIT) @ Richard King
+
+[linux-link]: http://askubuntu.com/questions/127056/where-is-bashrc
+[macos-link]: http://superuser.com/questions/147043/where-to-find-the-bashrc-file-on-mac-os-x-snow-leopard-and-lion
+[mingw-link]: http://superuser.com/questions/405342/mingw-bash-profile
+[cygwin-link]: https://www.cygwin.com/cygwin-ug-net/setup-files.html
