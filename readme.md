@@ -30,11 +30,11 @@ alias vag-status='vagrant status'
 alias vgr-status='vagrant status'
 alias vg-status='vagrant status'
 
-# enter vagrant - enters into the the current virtual machine via ssh into it if it is running
-alias vagrant-enter='vagrant ssh'
-alias vag-enter='vagrant ssh'
-alias vgr-enter='vagrant ssh'
-alias vg-enter='vagrant ssh'
+# enter vagrant - logs into the the current virtual machine via ssh into it if it is running
+alias vagrant-login='vagrant ssh'
+alias vag-login='vagrant ssh'
+alias vgr-login='vagrant ssh'
+alias vg-login='vagrant ssh'
 
 # restart vagrant - halts the virtual machine, then starts it and ssh into it
 alias vagrant-restart='vagrant halt && vagrant up && vagrant ssh'
