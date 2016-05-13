@@ -74,7 +74,7 @@ alias vg-reinstall='yes | vagrant destroy && vagrant up && vagrant ssh'
 
 ## Support
 
-[Support the developer](richrdkng.github.io/support)
+[Support the developer](http://richrdkng.github.io/support)
 
 ## License
 
