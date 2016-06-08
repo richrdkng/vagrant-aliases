@@ -53,6 +53,12 @@ alias vagrant-reinstall='yes | vagrant destroy && vagrant up && vagrant ssh'
 alias vag-reinstall='yes | vagrant destroy && vagrant up && vagrant ssh'
 alias vgr-reinstall='yes | vagrant destroy && vagrant up && vagrant ssh'
 alias vg-reinstall='yes | vagrant destroy && vagrant up && vagrant ssh'
+
+# share vagrant - shares the virtual machine using HashiCorp's Atlas
+alias vagrant-share='vagrant share --name $1 ${@:2}'
+alias vag-share='vagrant share --name $1 ${@:2}'
+alias vgr-share='vagrant share --name $1 ${@:2}'
+alias vg-share='vagrant share --name $1 ${@:2}'
 ```
 
 ## Usage
